@@ -4,7 +4,7 @@ This is your first step.
 
 This is an _example_ of creating a scenario and running a **command**
 
-Since we are using katacoda build env for this tutorial, we need wget tool so that we can install miniconda environment.
+Since we are using katacoda environment for this tutorial, we need wget tool so that we can install miniconda.
 
 `apt-get update; apt-get install wget`{{execute}}
 
@@ -23,4 +23,8 @@ Source miniconda environment
 Activate conda base environment
 
 `conda activate base`{{execute}}
+
+Create CDAT conda environment
+
+`conda create -n cdat -c cdat/label/nightly -c conda-forge cdms2 vcs ipwidgets jupyter notebook`{{execute}}
 
