@@ -26,5 +26,8 @@ Activate conda base environment
 
 Create CDAT conda environment
 
-`conda create -n cdat -c cdat/label/nightly -c conda-forge cdms2 vcs ipwidgets jupyter notebook`{{execute}}
+`conda create -n cdat -c cdat/label/nightly -c conda-forge cdms2 vcs ipywidgets jupyter notebook`{{execute}}
 
+Run jupyter notebook
+
+`jupyter notebook`{{execute}}
